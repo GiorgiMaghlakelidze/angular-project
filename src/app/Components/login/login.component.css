@@ -16,7 +16,7 @@ body {
 section {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 7vh);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,4 +176,7 @@ small {
 }
 .right {
   cursor: pointer;
+}
+.login-button > input{
+  padding: 10px !important;
 }

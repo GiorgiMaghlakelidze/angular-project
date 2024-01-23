@@ -14,7 +14,7 @@ body {
 section {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 7vh);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,6 +63,7 @@ section .signin {
   padding: 40px;
   border-radius: 4px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+  height: 97%;
 }
 section .signin .content {
   position: relative;
@@ -82,8 +83,9 @@ section .signin .content .form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
 }
+
 section .signin .content .form .inputBox {
   position: relative;
   width: 100%;
@@ -175,3 +177,9 @@ small {
 .right {
   cursor: pointer;
 }
+
+
+.register-button > input{
+  padding: 10px !important;
+}
+
